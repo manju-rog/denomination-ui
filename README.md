@@ -20,7 +20,8 @@ A **React.js** application using **Material UI** with a **persistent drawer (sid
 
 ## **📸 UI Screenshots**
 ### **🏠 Home Page**
-![Home Page](screenshots/home.png) <!-- Replace with actual image -->
+![Home Page](<img width="1467" alt="Screenshot 2025-02-06 at 11 48 13 AM" src="https://github.com/user-attachments/assets/f349b0d6-eb08-4748-8fd0-b59c07f1959a" />
+) 
 
 ### **📌 Sidebar Menu (Opened)**
 ![Sidebar](screenshots/sidebar.png) <!-- Replace with actual image -->
