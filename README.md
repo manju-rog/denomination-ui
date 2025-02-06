@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+# 📌 React Material UI Persistent Drawer App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **React.js** application using **Material UI** with a **persistent drawer (sidebar menu)**, a **fixed header & footer**, and two main components:
+1. **Denominator** – Calculates denominations of a given amount.
+2. **Calculator** – Performs basic arithmetic operations.
 
-## Available Scripts
+![Project Screenshot](screenshots/ui_overview.png) <!-- Replace with actual image -->
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## **🚀 Features**
+✅ **Material UI Theming** – Uses **Primary (#1976d2)** and **Secondary (#dc004e)** colors.  
+✅ **Persistent Sidebar** – A **hidden drawer menu** that opens on button click.  
+✅ **Fixed Header & Footer** – Always visible, ensuring a structured UI.  
+✅ **Denominator Calculator** – Breaks down an amount into denominations (₹1000, ₹500, ₹100, etc.).  
+✅ **Basic Calculator** – Performs **addition, subtraction, multiplication, and division**.  
+✅ **Fully Responsive** – Works well on **desktop and mobile** screens.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **📸 UI Screenshots**
+### **🏠 Home Page**
+![Home Page](screenshots/home.png) <!-- Replace with actual image -->
 
-### `npm test`
+### **📌 Sidebar Menu (Opened)**
+![Sidebar](screenshots/sidebar.png) <!-- Replace with actual image -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **📊 Denominator Page**
+![Denominator Page](screenshots/denominator.png) <!-- Replace with actual image -->
 
-### `npm run build`
+### **➗ Calculator Page**
+![Calculator Page](screenshots/calculator.png) <!-- Replace with actual image -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **🛠️ Installation & Setup**
+### **1️⃣ Prerequisites**
+- Install **Node.js** (Download from [here](https://nodejs.org/))
+- Install **npm** (comes with Node.js)
+- Ensure you have **VS Code** or any preferred code editor.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **2️⃣ Clone the Repository**
+```sh
+git clone https://github.com/your-repository-url.git
+cd your-project-folder
+3️⃣ Install Dependencies
+sh
+Copy
+Edit
+npm install
+4️⃣ Run the Application
+sh
+Copy
+Edit
+npm start
+This will start the project at http://localhost:3000/.
 
-### `npm run eject`
+📂 Folder Structure
+bash
+Copy
+Edit
+/my-app
+ ├── /src
+ │   ├── /components
+ │   │   ├── Header.js
+ │   │   ├── Footer.js
+ │   │   ├── Sidebar.js
+ │   │   ├── DenominationResult.js
+ │   │   ├── ClearButton.js
+ │   ├── /pages
+ │   │   ├── Calculator.js
+ │   │   ├── Denominator.js
+ │   ├── App.js
+ │   ├── index.js
+ ├── package.json
+ ├── README.md
+🔹 Technologies Used
+React.js – Frontend framework
+Material UI – UI components
+React Router – Navigation between pages
+📌 Functionalities Explained
+📊 Denominator
+Takes an amount input.
+Calculates the denominations (e.g., ₹1000, ₹500, ₹100, etc.).
+Displays the denomination breakdown.
+Has Calculate and Clear buttons.
+➗ Calculator
+Takes two inputs.
+Supports four operations (Addition, Subtraction, Multiplication, Division).
+Displays the result.
+Has Calculate and Clear buttons.
+👨‍💻 Contributions
+Feel free to fork and contribute to this project!
+Submit a pull request with feature updates.
+📜 License
+This project is open-source and can be used freely.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📬 Contact
+If you have any issues or suggestions, feel free to reach out: 📧 Email: your.email@example.com
+🔗 LinkedIn: Your Profile
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🚀 Enjoy coding! Let me know if you need any changes! 🔥
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+markdown
+Copy
+Edit
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## **📌 Next Steps**
+1. **Replace Placeholder Images**
+   - Take screenshots of your app and place them inside a **`/screenshots`** folder.
+   - Update the `![Image Description](screenshots/example.png)` lines.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Update Repository URL**
+   - If you're using GitHub, replace `https://github.com/your-repository-url.git` with your actual repo.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Modify Contact Info**
+   - Change **email** and **LinkedIn profile** if needed.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## **✅ Summary**
+This README:
+- **Explains the project**
+- **Includes setup steps**
+- **Provides UI screenshots**
+- **Documents functionalities clearly**
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+💡 **Let me know if you need any refinements!** 🚀
